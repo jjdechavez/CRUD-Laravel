@@ -12,8 +12,10 @@
 */
 
 
-Route::get('/', 'ContactsController@index');
+//Route::get('/', 'ContactsController@index');
+Route::get('/', 'GamesController@index');
 
-Route::resource('contacts', 'ContactsController');
 
+//Route::resource('contacts', 'ContactsController');
+Route::resource('games', 'GamesController');
 
